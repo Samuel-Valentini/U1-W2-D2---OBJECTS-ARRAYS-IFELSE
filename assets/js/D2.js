@@ -195,13 +195,13 @@ console.log("online");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let num = Math.floor(Math.random() * 1000000);
+// let num = Math.floor(Math.random() * 1000000);
 
-if (num % 2 === 0) {
-  console.log(num + " è pari");
-} else {
-  console.log(num + " è dispari");
-}
+// if (num % 2 === 0) {
+//   console.log(num + " è pari");
+// } else {
+//   console.log(num + " è dispari");
+// }
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
