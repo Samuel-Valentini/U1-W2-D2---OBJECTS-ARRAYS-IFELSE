@@ -44,22 +44,19 @@ console.log("online");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// let inserimento = 0;
-
-// console.log(inserimento);
-
-// inserimento = prompt(
-//   "Inserisci un numero intero e scopri se è divisibile per 5. Se inserirai un numero con la virgola verrà approssimato all'intero più piccolo. Se premi ok senza inserire nulla sarà considerato 0"
+// let inserimento = prompt(
+//   "Inserisci un numero intero e scopri se è divisibile per 5. Se inserirai un numero con la virgola verrà approssimato all'intero più piccolo."
 // );
 
 // console.log(inserimento);
 
-// if (inserimento !== null) {
+// if (inserimento !== null && inserimento !== "") {
 //   let numinserito = Math.floor(inserimento);
 //   if (isNaN(numinserito)) {
 //     window.alert("non hai inserito un numero oppure hai usato un formato non corretto, ricarica la pagina per ripartire");
 //   } else if (numinserito % 5 === 0) {
 //     window.alert("è divisibile per 5");
+//     console.log("divisibile per 5");
 //   } else {
 //     window.alert("non è divisibile per 5");
 //   }
