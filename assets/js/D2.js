@@ -23,19 +23,20 @@ console.log("online");
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-// let numinserito = Math.floor(
-//   prompt("Inserisci un numero intero e scopri se hai vinto. Se inserirai un numero con la virgola verrà approssimato all'intero più piccolo")
-// );
+let numinserito = Math.floor(
+  prompt("Inserisci un numero intero e scopri se hai vinto. Se inserirai un numero con la virgola verrà approssimato all'intero più piccolo")
+);
 
-// console.log(numinserito);
+console.log(numinserito);
 
-// if (isNaN(numinserito)) {
-//   window.alert("non hai inserito un numero oppure hai usato un formato non corretto, ricarica la pagina per ripartire");
-// } else if (numinserito === 5) {
-//   window.alert("hai vinto!");
-// } else {
-//   window.alert("hai perso :-(");
-// }
+if (isNaN(numinserito)) {
+  window.alert("non hai inserito un numero oppure hai usato un formato non corretto, ricarica la pagina per ripartire");
+} else if (numinserito === 5) {
+  window.alert("hai vinto!");
+} else {
+  window.alert("hai perso :-(");
+  console.log("not equal");
+}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
