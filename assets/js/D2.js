@@ -204,36 +204,51 @@ console.log("online");
 // }
 
 /* ESERCIZIO 10
-  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
-*/
+  Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.*/
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// let val = 7;
+
+// if (val < 5) {
+//   console.log("Meno di 5");
+// } else if (val < 10) {
+//   console.log("Meno di 10");
+// } else {
+//   console.log("Uguale a 10 o maggiore");
+// }
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
 
-const me = {
-  name: "John",
-  lastName: "Doe",
-  skills: ["javascript", "html", "css"],
-};
-
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// const me = {
+//   name: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"],
+//   city: "Toronto",
+// };
 
 /* ESERCIZIO 12
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere la proprietà "lastName".
-*/
+  */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// const me = {
+//   name: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"],
+//   city: "Toronto",
+// };
+
+// console.log(me.lastName);
+
+// delete me.lastName;
+
+// console.log(me.lastName);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
@@ -241,14 +256,61 @@ const me = {
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// const me = {
+//   name: "John",
+//   lastName: "Doe",
+//   skills: ["javascript", "html", "css"],
+//   city: "Toronto",
+// };
+
+// delete me.lastName;
+
+// me.skills.pop();
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+// const diecinumeri = [];
+// console.log(diecinumeri);
+
+// diecinumeri[0] = 1;
+// diecinumeri[1] = 2;
+// diecinumeri[2] = 3;
+// diecinumeri[3] = 4;
+// diecinumeri[4] = 5;
+// diecinumeri[5] = 6;
+// diecinumeri[6] = 7;
+// diecinumeri[7] = 8;
+// diecinumeri[8] = 9;
+// diecinumeri[9] = 10;
+
+// console.log(diecinumeri);
+
 /* ESERCIZIO 15
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+
+// const diecinumeri = [];
+// console.log(diecinumeri);
+
+// diecinumeri[0] = 1;
+// diecinumeri[1] = 2;
+// diecinumeri[2] = 3;
+// diecinumeri[3] = 4;
+// diecinumeri[4] = 5;
+// diecinumeri[5] = 6;
+// diecinumeri[6] = 7;
+// diecinumeri[7] = 8;
+// diecinumeri[8] = 9;
+// diecinumeri[9] = 10;
+
+// console.log(diecinumeri);
+
+// diecinumeri[9] = 100;
+
+// console.log(diecinumeri);
